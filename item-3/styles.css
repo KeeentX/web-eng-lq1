@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px 50px;
+    background-image: url("bg-egg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 700px;
+}
+
+h1 {
+    margin: 0;
+    color: #000000;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+    color: #000000;
+    font-weight: bolder;
+}
+
+aside {
+    width: 20%;
+}
+
+li {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.nav-li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.guide-nav {
+    border: #000000 5px solid;
+    border-radius: 20px;
+    background-color:#ffc400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+    font-size: larger;
+    padding-top: 10px;
+}
+
+.guide-nav a {
+    text-decoration: none;
+    color: #010058;
+    font-weight: bolder;
+}
+
+.guide-nav a:hover {
+    text-decoration: underline;
+    color: #927000;
+}
+
+.guide-container {
+    background-color: rgb(252, 243, 139);
+    border-radius: 20px;
+    border-color: #000000;
+    border-width: 5px 5px 5px 5px;
+    border-style: solid;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.guide-container h2 {
+    color: #000000;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.date {
+    color: #6d6d6d;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.step {
+    display: none;
+}
+
+:target {
+    display: block;
+}
+
+.img-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.step-img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.recipe-step {
+    width: 100%;
+}
