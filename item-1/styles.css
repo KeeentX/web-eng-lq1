@@ -42,9 +42,15 @@ h2 {
     box-shadow: 0 0 10px 1px rgb(0, 0, 0);
 }
 
+.sidebar-list {
+    list-style-type:circle;
+    margin: 0;
+    padding: 10px;
+}
+
 .link {
     text-decoration: none;
-    color: #3c00ff;
+    color: #f4ff22;
 }
 
 .link:hover {
